@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-07-09T08:19:59.206Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="5LBopBMzVbnJD373hQl7" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-09T09:35:01.109Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="_O6YIVq5JiWme5yI3sCx" version="21.6.1" type="github">
   <diagram name="第 1 页" id="STJgJs8Hy84j43mIQOGK">
     <mxGraphModel dx="786" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="h9Y7QXtQHMgZYLagcVGw-30" value="demo" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="10" width="450" height="450" as="geometry" />
+        </mxCell>
         <mxCell id="h9Y7QXtQHMgZYLagcVGw-1" value="区块系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="60" width="120" height="60" as="geometry" />
         </mxCell>
@@ -101,6 +104,55 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="560" as="sourcePoint" />
             <mxPoint x="570" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h9Y7QXtQHMgZYLagcVGw-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h9Y7QXtQHMgZYLagcVGw-31" target="h9Y7QXtQHMgZYLagcVGw-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h9Y7QXtQHMgZYLagcVGw-31" value="选中点A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h9Y7QXtQHMgZYLagcVGw-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h9Y7QXtQHMgZYLagcVGw-32" target="h9Y7QXtQHMgZYLagcVGw-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h9Y7QXtQHMgZYLagcVGw-32" value="选中点B" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h9Y7QXtQHMgZYLagcVGw-34" value="算出中心坐标，算出旋转角。&lt;br&gt;生成一个staticmesh并指定拉伸长度" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h9Y7QXtQHMgZYLagcVGw-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h9Y7QXtQHMgZYLagcVGw-37" target="h9Y7QXtQHMgZYLagcVGw-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h9Y7QXtQHMgZYLagcVGw-37" value="选中点A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h9Y7QXtQHMgZYLagcVGw-38" value="选中点B" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h9Y7QXtQHMgZYLagcVGw-40" value="标准道路模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h9Y7QXtQHMgZYLagcVGw-41" value="所有道路长度为5的倍数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h9Y7QXtQHMgZYLagcVGw-42" value="平铺标准道路模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h9Y7QXtQHMgZYLagcVGw-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h9Y7QXtQHMgZYLagcVGw-38" target="h9Y7QXtQHMgZYLagcVGw-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="1010" as="sourcePoint" />
+            <mxPoint x="620" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h9Y7QXtQHMgZYLagcVGw-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="h9Y7QXtQHMgZYLagcVGw-40" target="h9Y7QXtQHMgZYLagcVGw-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="1110" as="sourcePoint" />
+            <mxPoint x="540" y="1040" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="1000" />
+              <mxPoint x="640" y="1070" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
