@@ -1,9 +1,102 @@
-<mxfile host="app.diagrams.net" modified="2023-07-17T04:23:42.670Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.1" etag="I6t_ZtD0zrzEZXO86aUp" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-17T04:47:09.883Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="JuCcNw1ptyQUrEnDI8a3" version="21.6.1" type="github">
   <diagram name="第 1 页" id="C61H5lq30QVmAmAkrJcK">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="SHBFoHhZDrbC2CamdiJ_-35" value="先不实现这部分" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="20" width="670" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="SHBFoHhZDrbC2CamdiJ_-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SHBFoHhZDrbC2CamdiJ_-2" target="SHBFoHhZDrbC2CamdiJ_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SHBFoHhZDrbC2CamdiJ_-2" value="模型容器&lt;br&gt;选取对应的道路" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SHBFoHhZDrbC2CamdiJ_-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SHBFoHhZDrbC2CamdiJ_-3" target="SHBFoHhZDrbC2CamdiJ_-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SHBFoHhZDrbC2CamdiJ_-3" value="控制器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SHBFoHhZDrbC2CamdiJ_-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SHBFoHhZDrbC2CamdiJ_-4" target="SHBFoHhZDrbC2CamdiJ_-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SHBFoHhZDrbC2CamdiJ_-4" value="道路系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SHBFoHhZDrbC2CamdiJ_-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SHBFoHhZDrbC2CamdiJ_-5" target="SHBFoHhZDrbC2CamdiJ_-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="270" />
+              <mxPoint x="260" y="270" />
+              <mxPoint x="260" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SHBFoHhZDrbC2CamdiJ_-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SHBFoHhZDrbC2CamdiJ_-5" target="SHBFoHhZDrbC2CamdiJ_-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SHBFoHhZDrbC2CamdiJ_-5" value="选取道路" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SHBFoHhZDrbC2CamdiJ_-8" value="将选好的模块交给控制器" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SHBFoHhZDrbC2CamdiJ_-11" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SHBFoHhZDrbC2CamdiJ_-5" target="SHBFoHhZDrbC2CamdiJ_-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="390" as="sourcePoint" />
+            <mxPoint x="440" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SHBFoHhZDrbC2CamdiJ_-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SHBFoHhZDrbC2CamdiJ_-12" target="SHBFoHhZDrbC2CamdiJ_-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SHBFoHhZDrbC2CamdiJ_-12" value="加载道路" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SHBFoHhZDrbC2CamdiJ_-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SHBFoHhZDrbC2CamdiJ_-17" target="SHBFoHhZDrbC2CamdiJ_-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SHBFoHhZDrbC2CamdiJ_-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SHBFoHhZDrbC2CamdiJ_-17" target="SHBFoHhZDrbC2CamdiJ_-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SHBFoHhZDrbC2CamdiJ_-17" value="点击鼠标&lt;br&gt;获取第一次坐标" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SHBFoHhZDrbC2CamdiJ_-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SHBFoHhZDrbC2CamdiJ_-21" target="SHBFoHhZDrbC2CamdiJ_-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SHBFoHhZDrbC2CamdiJ_-21" value="生成第一个坐标点" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SHBFoHhZDrbC2CamdiJ_-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SHBFoHhZDrbC2CamdiJ_-25" target="SHBFoHhZDrbC2CamdiJ_-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SHBFoHhZDrbC2CamdiJ_-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SHBFoHhZDrbC2CamdiJ_-25" target="SHBFoHhZDrbC2CamdiJ_-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SHBFoHhZDrbC2CamdiJ_-25" value="拖动鼠标" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SHBFoHhZDrbC2CamdiJ_-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SHBFoHhZDrbC2CamdiJ_-27" target="SHBFoHhZDrbC2CamdiJ_-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SHBFoHhZDrbC2CamdiJ_-27" value="根据现在的鼠标坐标&lt;br&gt;生成预览图" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SHBFoHhZDrbC2CamdiJ_-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SHBFoHhZDrbC2CamdiJ_-30" target="SHBFoHhZDrbC2CamdiJ_-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SHBFoHhZDrbC2CamdiJ_-30" value="再次点击鼠标&lt;br&gt;获取第二次坐标" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SHBFoHhZDrbC2CamdiJ_-32" value="生成道路&lt;br&gt;并存入道路list" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
