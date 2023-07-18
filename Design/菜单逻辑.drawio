@@ -1,9 +1,93 @@
-<mxfile host="app.diagrams.net" modified="2023-07-18T06:01:38.192Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.2" etag="o8bl8OwoWnVtiOgyC_Me" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-18T06:40:57.812Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="KKlHXoyR48D2uS8QgAVB" version="21.6.2" type="github">
   <diagram name="第 1 页" id="IkAe8vDwWuTiNtzCoP1I">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vduLUrUJRBdnZ6_7Tomd-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vduLUrUJRBdnZ6_7Tomd-1" target="vduLUrUJRBdnZ6_7Tomd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vduLUrUJRBdnZ6_7Tomd-1" value="esc按键" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vduLUrUJRBdnZ6_7Tomd-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vduLUrUJRBdnZ6_7Tomd-2" target="vduLUrUJRBdnZ6_7Tomd-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vduLUrUJRBdnZ6_7Tomd-2" value="日记按键" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vduLUrUJRBdnZ6_7Tomd-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vduLUrUJRBdnZ6_7Tomd-3" target="vduLUrUJRBdnZ6_7Tomd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vduLUrUJRBdnZ6_7Tomd-3" value="打开菜单" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vduLUrUJRBdnZ6_7Tomd-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vduLUrUJRBdnZ6_7Tomd-6" target="vduLUrUJRBdnZ6_7Tomd-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vduLUrUJRBdnZ6_7Tomd-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vduLUrUJRBdnZ6_7Tomd-6" target="vduLUrUJRBdnZ6_7Tomd-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vduLUrUJRBdnZ6_7Tomd-6" value="日记按钮" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vduLUrUJRBdnZ6_7Tomd-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vduLUrUJRBdnZ6_7Tomd-9" target="vduLUrUJRBdnZ6_7Tomd-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vduLUrUJRBdnZ6_7Tomd-9" value="打开日记" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vduLUrUJRBdnZ6_7Tomd-13" value="暂停菜单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vduLUrUJRBdnZ6_7Tomd-14" value="日记" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vduLUrUJRBdnZ6_7Tomd-15" value="关卡逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vduLUrUJRBdnZ6_7Tomd-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vduLUrUJRBdnZ6_7Tomd-16" target="vduLUrUJRBdnZ6_7Tomd-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vduLUrUJRBdnZ6_7Tomd-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vduLUrUJRBdnZ6_7Tomd-16" target="vduLUrUJRBdnZ6_7Tomd-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vduLUrUJRBdnZ6_7Tomd-16" value="选择重新开始" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vduLUrUJRBdnZ6_7Tomd-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vduLUrUJRBdnZ6_7Tomd-17" target="vduLUrUJRBdnZ6_7Tomd-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vduLUrUJRBdnZ6_7Tomd-17" value="设置" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vduLUrUJRBdnZ6_7Tomd-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vduLUrUJRBdnZ6_7Tomd-19" target="vduLUrUJRBdnZ6_7Tomd-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vduLUrUJRBdnZ6_7Tomd-19" value="读取关卡进度" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vduLUrUJRBdnZ6_7Tomd-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vduLUrUJRBdnZ6_7Tomd-21" target="vduLUrUJRBdnZ6_7Tomd-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vduLUrUJRBdnZ6_7Tomd-21" value="退出游戏" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vduLUrUJRBdnZ6_7Tomd-23" value="继续游戏" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vduLUrUJRBdnZ6_7Tomd-26" value="重置当前关卡进度" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vduLUrUJRBdnZ6_7Tomd-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vduLUrUJRBdnZ6_7Tomd-28" target="vduLUrUJRBdnZ6_7Tomd-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vduLUrUJRBdnZ6_7Tomd-28" value="选择其他关卡页面的读取功能" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vduLUrUJRBdnZ6_7Tomd-30" value="加载至对应关卡" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
