@@ -1,9 +1,296 @@
-<mxfile host="app.diagrams.net" modified="2023-07-27T05:46:49.619Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.2" etag="zrWB6_LYCbQepS9Uke3E" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T06:15:39.363Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="xeIqM5LXty5TeM3i_qQN" version="21.6.2" type="github">
   <diagram name="第 1 页" id="P69dv4d05coy-Nm_p4P1">
-    <mxGraphModel>
+    <mxGraphModel dx="3771" dy="2018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-127" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="1460" width="1210" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-98" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="1010" width="460" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-87" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="60" width="1170" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="60" width="630" height="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-1" target="VZq2P5SKXqFh_5cAKXzj-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-1" value="鼠标控制器" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-6" value="禁用鼠标控制器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-9" value="启用鼠标控制器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="465" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-16" target="VZq2P5SKXqFh_5cAKXzj-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-16" value="点击点是否有可交互物体" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="VZq2P5SKXqFh_5cAKXzj-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="100" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="540" y="100" />
+              <mxPoint x="540" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-24" value="左键点击事件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="VZq2P5SKXqFh_5cAKXzj-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="100" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="540" y="100" />
+              <mxPoint x="540" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-26" value="右键点击事件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-28" value="更新坐标" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-30" target="VZq2P5SKXqFh_5cAKXzj-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="510" />
+              <mxPoint x="540" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-30" value="滚轮滚动事件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-33" target="VZq2P5SKXqFh_5cAKXzj-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-33" value="放置控制器" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-36" target="VZq2P5SKXqFh_5cAKXzj-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-36" value="激活时加载模型（从ui事件接收）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-38" target="VZq2P5SKXqFh_5cAKXzj-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-90" target="VZq2P5SKXqFh_5cAKXzj-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-38" value="状态1：预览" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-40" target="VZq2P5SKXqFh_5cAKXzj-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-40" value="从鼠标参照接受指令，更新坐标" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-42" target="VZq2P5SKXqFh_5cAKXzj-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-42" value="对预览模型使用碰撞检测" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-44" target="VZq2P5SKXqFh_5cAKXzj-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-44" target="VZq2P5SKXqFh_5cAKXzj-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1870" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-44" value="有无模型碰撞" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="340" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-46" value="加载绿色半透明贴图" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-48" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-55" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-56" target="VZq2P5SKXqFh_5cAKXzj-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-56" target="VZq2P5SKXqFh_5cAKXzj-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-56" value="是否是世界静态模型" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1890" y="340" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-58" value="加载黄色半透明贴图" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1870" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-60" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1870" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-63" value="加载红色半透明贴图" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-65" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-71" target="VZq2P5SKXqFh_5cAKXzj-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-71" target="VZq2P5SKXqFh_5cAKXzj-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-71" value="接收到鼠标点击事件（左键）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-73" target="VZq2P5SKXqFh_5cAKXzj-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-73" value="状态2：放置" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-75" target="VZq2P5SKXqFh_5cAKXzj-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-75" value="使预览模型透明化或者删除预览模型" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-77" target="VZq2P5SKXqFh_5cAKXzj-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-77" value="卸载事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-78" value="禁用已经加载的模块" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-80" target="VZq2P5SKXqFh_5cAKXzj-84">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1720" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-80" value="接收鼠标坐标并在该处生成所选择的actor" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-82" target="VZq2P5SKXqFh_5cAKXzj-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-82" value="接收到鼠标点击事件（右键）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-84" value="调用鼠标控制器的卸载事件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-89" target="VZq2P5SKXqFh_5cAKXzj-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-89" value="放置对象" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-38" target="VZq2P5SKXqFh_5cAKXzj-90">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="410" as="sourcePoint" />
+            <mxPoint x="1110" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-90" target="VZq2P5SKXqFh_5cAKXzj-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-90" value="接收到鼠标滚轮事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-92" value="触旋转预览模型" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-94" target="VZq2P5SKXqFh_5cAKXzj-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-94" value="接收鼠标点击事件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-96" value="切换状态并加载模型" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-100" target="VZq2P5SKXqFh_5cAKXzj-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-100" value="UI菜单" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-103" target="VZq2P5SKXqFh_5cAKXzj-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-103" target="VZq2P5SKXqFh_5cAKXzj-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-103" value="鼠标是否在菜单内" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="1630" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-120" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-105" target="VZq2P5SKXqFh_5cAKXzj-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-105" value="禁用鼠标控制器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-107" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1640" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-109" value="触发点击事件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-111" value="&amp;nbsp;是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="890" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-112" value="启用鼠标控制器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-114" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="1740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-116" target="VZq2P5SKXqFh_5cAKXzj-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-116" value="加载事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-117" value="启用已经加载的模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-119" target="VZq2P5SKXqFh_5cAKXzj-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-119" value="鼠标经过ui按钮上方" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="1640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-124" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-121" target="VZq2P5SKXqFh_5cAKXzj-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-121" value="更新个小动画" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="1640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZq2P5SKXqFh_5cAKXzj-123" target="VZq2P5SKXqFh_5cAKXzj-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-123" value="鼠标点下" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="1640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZq2P5SKXqFh_5cAKXzj-125" value="调用鼠标控制器事件：&lt;br&gt;加载事件&lt;br&gt;并将选中的id传递给控制器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="1620" width="120" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
